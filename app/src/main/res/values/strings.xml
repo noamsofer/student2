@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">הרשמת תלמיד</string>
+    <string name="registration_title">הרשמת תלמיד</string>
+
+    <string name="label_first_name">שם פרטי</string>
+    <string name="label_last_name">שם משפחה</string>
+    <string name="label_email">אימייל</string>
+    <string name="label_grade">כיתה</string>
+    <string name="label_major">מגמה</string>
+
+    <string name="hint_first_name">הזינו שם פרטי</string>
+    <string name="hint_last_name">הזינו שם משפחה</string>
+    <string name="hint_email">הזינו כתובת אימייל</string>
+
+    <string name="grade_10">י</string>
+    <string name="grade_11">יא</string>
+    <string name="grade_12">יב</string>
+
+    <string name="major_prompt">בחרו מגמה</string>
+    <string name="major_computer_science">מדעי המחשב</string>
+    <string name="major_biology">ביולוגיה</string>
+    <string name="major_physics">פיזיקה</string>
+    <string name="major_chemistry">כימיה</string>
+    <string name="major_social_sciences">מדעי החברה</string>
+    <string-array name="majors">
+        <item>@string/major_prompt</item>
+        <item>@string/major_computer_science</item>
+        <item>@string/major_biology</item>
+        <item>@string/major_physics</item>
+        <item>@string/major_chemistry</item>
+        <item>@string/major_social_sciences</item>
+    </string-array>
+
+    <string name="checkbox_notifications">קבלת התראות</string>
+    <string name="checkbox_terms">אישור תנאי שימוש</string>
+    <string name="button_login">התחברות</string>
+
+    <string name="error_first_name">יש להזין שם פרטי</string>
+    <string name="error_last_name">יש להזין שם משפחה</string>
+    <string name="error_email_empty">יש להזין כתובת אימייל</string>
+    <string name="error_email_invalid">יש להזין כתובת אימייל במבנה תקין</string>
+    <string name="error_grade">יש לבחור כיתה</string>
+    <string name="error_major">יש לבחור מגמה</string>
+    <string name="error_terms">יש לאשר את תנאי השימוש</string>
+
+    <string name="value_yes">כן</string>
+    <string name="value_no">לא</string>
+    <string name="result_student">שם פרטי: %1$s\nשם משפחה: %2$s\nאימייל: %3$s\nכיתה: %4$s\nמגמה: %5$s\nקבלת התראות: %6$s\nאישור תנאי שימוש: %7$s</string>
+</resources>
